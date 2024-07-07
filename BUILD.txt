@@ -1,0 +1,3 @@
+# Enter the following command in the terminal to build the program, please ensure that your Icon.ico file exists.
+
+pyinstaller --name PasteAssistant_v.2.0 --icon=Icon.ico --onefile --windowed main.py
