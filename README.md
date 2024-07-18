@@ -28,4 +28,4 @@ by.QinT6o :)
 ------
 
 - 2024/07/19 更新说明
-- 1. 新增一个 HTML 文件 PasteTestWeb.html ，用于供用户测试软件可行性。
+  1. 新增一个 HTML 文件 PasteTestWeb.html ，用于供用户测试软件可行性。
