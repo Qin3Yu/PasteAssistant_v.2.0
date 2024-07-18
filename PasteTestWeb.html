@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>粘贴测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>请输入答案：</h1>
+    <input type="text" id="answerInput">
+    <script>
+        document.getElementById('answerInput').addEventListener('paste', function(event) {
+            event.preventDefault();
+            alert('粘贴禁用!');
+        });
+    </script>
+</body>
+</html>
